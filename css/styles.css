@@ -1,12 +1,11 @@
 html {
-	background-color:#B2B0B2;
-	padding: 20px;
+	background-image: url("../images/grey_texture.png");
 }
 .navitem {
 	display: inline-block;
 	margin-right:10px;
 	font-weight: bold;
-	font-size: 19px;
+	font-size: 1.188em;
 }
 
 a > img {
@@ -19,6 +18,56 @@ a > img {
 ul {
 	margin: 40px auto;
 	text-align:center;
+}
+
+/*---Two Column Design---*/
+/* 
+#header {
+	background-color: rgba(168,229,255, .3);
+	border-radius: 38px;
+	box-shadow: 0px -2px 16px 10px #000000;
+	width:100%;
+	padding: .1%;
+	float:left;
+	clear:both;
+	margin:1% auto;
+}
+ */
+ 
+ #wrapper {
+ 	background-color: rgba(255,215,168, .3);
+ 	margin: 2% auto;
+ 	width: 95%;
+ 	box-shadow: 0px -2px 70px 10px #000000;
+ 	border-radius: 38px;
+ 	float:left;
+ }
+
+#content {
+	padding: 5%;
+	margin:2%;
+	width:50%;
+	float: left;
+	overflow:auto;
+}
+
+#gallery_div {
+	padding: 5%;
+	margin:2%;
+	width: 20%;
+	float: left;
+	overflow:auto;
+	background: linear-gradient(#B28652, #FFD7A8);
+	box-shadow: 0px -2px 70px 10px #000000;
+}
+
+figure {
+	width:100%;
+	margin: 3px auto;
+}
+
+#gallery{
+	width:93%;
 }
 
 /*---Image Specific---*/
@@ -66,16 +115,13 @@ a:active {
 }
 
 body {
-	width: 900px;
+	width: 95%;
 	margin: 10px auto;
-	padding: 8px;
-	background-color: rgba(168,229,255, .3);
-	border-radius: 38px;
-	box-shadow: 0px -2px 16px 10px #000000;
+	padding: 2%;
 }
 
 p {
-	width: 650px;
+	width: 100%;
 	margin: 3px auto;
 	font-family: 'Oswald', sans-serif;
 	line-height: 1.5;
@@ -89,15 +135,28 @@ h1 {
 	text-align: center;
 	text-shadow: 5px 8px #000000;
 	font-family: 'Francois One', sans-serif;
-	font-size: 70px;
+	font-size: 4.375em;
 	color: #ffffff;
 }
 
 h2 {
-	background-color: rgba(0,0,0,.4);
 	text-shadow: 1px 1px #000000;
 	color:#ffffff;
-	width: 290px;
+	width: 40%;
+	height: 30%;
 	line-height: 2;
-	text-align: center;
+	background-image: url("../images/camera_icon.png");
+	background-repeat: no-repeat;
+	background-color: rgba(0,0,0,.4);
+	padding: 4px 0 0 53px;
+	text-shadow: 3px 2px #000000;
+	box-shadow: 0px 8px 20px 3px #000000;
+	
+}
+
+quote {
+	display: inline-block;
+	border-top:solid;
+	border-bottom:solid;
+	background-color: rgba(255,215,168,.3);
 }
