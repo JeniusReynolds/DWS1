@@ -154,7 +154,7 @@ h2 {
 	
 }
 
-quote {
+blockquote {
 	display: inline-block;
 	border-top:solid;
 	border-bottom:solid;
