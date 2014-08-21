@@ -154,9 +154,9 @@ h2 {
 	
 }
 
-quote {
+blockquote {
 	display: inline-block;
 	border-top:solid;
 	border-bottom:solid;
-	background-color: rgba(255,215,168,.5);
+	background-color: rgba(255,215,168,.4);
 }
